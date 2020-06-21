@@ -13,5 +13,6 @@
 * [循环](python-fundamentals/xun-huan.md)
 * [Pass & Continue](python-fundamentals/pass-and-continue.md)
 * [排序算法](python-fundamentals/xun-huan-qian-tao.md)
+* [文件的读取与写入](python-fundamentals/wen-jian-de-du-qu-yu-xie-ru.md)
 * [错题集](python-fundamentals/cuo-ti-ji.md)
 
