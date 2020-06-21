@@ -2,16 +2,16 @@
 
 * [Initial page](README.md)
 
-## Python 基础
+## Python Fundamentals
 
-* [深拷贝&浅拷贝](python-ji-chu/shen-kao-bei-qian-kao-bei.md)
-* [布尔表达式](python-ji-chu/bu-er-biao-da-shi.md)
-* [切片（Slice）](python-ji-chu/qie-pian-slice.md)
-* [函数](python-ji-chu/han-shu.md)
-* [格式化字符串](python-ji-chu/ge-shi-hua-zi-fu-chuan.md)
-* [循环](python-ji-chu/xun-huan.md)
-* [Pass & Continue](python-ji-chu/pass-and-continue.md)
-* [注释](python-ji-chu/zhu-shi.md)
-* [循环&嵌套](python-ji-chu/xun-huan-qian-tao.md)
-* [错题集](python-ji-chu/cuo-ti-ji.md)
+* [深拷贝&浅拷贝](python-fundamentals/shen-kao-bei-qian-kao-bei.md)
+* [布尔表达式](python-fundamentals/bu-er-biao-da-shi.md)
+* [切片（Slice）](python-fundamentals/qie-pian-slice.md)
+* [函数](python-fundamentals/han-shu.md)
+* [注释](python-fundamentals/zhu-shi.md)
+* [格式化字符串](python-fundamentals/ge-shi-hua-zi-fu-chuan.md)
+* [循环](python-fundamentals/xun-huan.md)
+* [Pass & Continue](python-fundamentals/pass-and-continue.md)
+* [排序算法](python-fundamentals/xun-huan-qian-tao.md)
+* [错题集](python-fundamentals/cuo-ti-ji.md)
 
