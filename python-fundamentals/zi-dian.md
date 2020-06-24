@@ -14,6 +14,8 @@ dict1 = {'A':'Apple','B':'Book','C'：'Cake'}
 
 在字典中，建必须是唯一的。
 
+## 创建
+
 如果不用字典：
 
 ```python
@@ -35,7 +37,9 @@ dict2 = {'abc':{'A':'B'}}
 print(dict2)
 ```
 
-新增对象中的元素,
+## 增加
+
+新增对象中的元素
 
 如果字典中已经有这个键，则修改这个元素
 
@@ -46,6 +50,14 @@ dict2['AB'] = 'A2'
 dict2.update({'AA':'CXK','AB':'YYQX'})
 ```
 
+## 删除
+
+删除键值对
+
+```python
+del dict['abc']
+```
+
 清空字典：
 
 ```python
@@ -54,12 +66,16 @@ dict2.clear()
 print(dict2)
 ```
 
+## 搜索
+
 判断某个值是否在列表中，此处根据键来判断，并且区分大小写
 
 ```python
 if 'AB' in dict2:
     print('在字典里')
 ```
+
+## 读取
 
 获取字典中所有的键，keys\(\) 方法的返回值属于**类列表**
 
@@ -79,6 +95,8 @@ print(list(dict2.keys()))
 print(dicts.values())
 ```
 
+## 遍历
+
 同时获取值和键
 
 ```python
@@ -87,6 +105,8 @@ print(dict2.items())
 for k,v in dict2.items():
     print((f'键:{k},值:{v}'))
 ```
+
+## JSON 和字典
 
 将json 转换为字典
 
@@ -122,7 +142,8 @@ json.loads 和 json.load
 ```python
 with open ('file-path') as ifile:
     json.dump(tmp,ifile)
-    ifile.sekek()eee
+    ifile.seek(0)
+    print(ifile.read())
 ```
 
 
