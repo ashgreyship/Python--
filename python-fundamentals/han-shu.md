@@ -60,8 +60,69 @@ obj = Foo()
 obj.func() #func 方法
 
 # 执行方式二：调用的func是函数
-Foo.func(123) # 函数
+Foo.func(123) # 函数用于
 ```
 
+## 作用域
 
+### 全局变量
+
+```python
+a = 0
+def fun1(c, d):
+    global e
+    e = 3
+    # 声明 e 为全局变量，如果不声明，则e为局部变量
+    return (c + d) * e
+
+print(fun1(3, 6))
+print(a)
+print(e)
+
+```
+
+### 缺省值进阶
+
+```python
+#如果需要修改每个参数之间的间隔符，可以加入 sep = '自定义参数'
+print ('a','b','c', sep = '|||||')
+#output: a|||||b|||||c
+
+#如果需要修改每次打印后自动换行，可以加入 end = '自定义的结束符'
+print('a','b','c',end='')
+print('a','b','c')
+#output: a b ca b c
+
+#如果需要将print 的内容输入到文件中，可以加入 file = '文件'
+with open ('path','w+') as ifile:
+    print('a','b','c',end='',file=ifile)
+
+#
+import time
+for i in range(0,101):
+    print('\r', f'当前进度{i}%',end='',flush = True)
+    time.sleep(0.1)
+ 
+       
+import time
+
+print('上课倒计时：')
+for i in range(10, -1, -1):
+    print('\r', f'上课倒计时{i}秒', end='', flush=True)
+    time.sleep(1)
+
+```
+
+### 可变数量的参数（位置参数）
+
+允许在传递实参时候，传输不定数量的参数
+
+```python
+def fun(a,b,*args):
+    print(a,b,args)
+fun(1,2,345,678,90)
+
+#output: 1 2 (345, 678, 90)
+#以元祖输出
+```
 
