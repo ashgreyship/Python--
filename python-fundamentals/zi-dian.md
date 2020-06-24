@@ -12,7 +12,7 @@ dict1 = {'A':'Apple','B':'Book','C'：'Cake'}
 
 值可以是任何类型的数据
 
-在字典中，建必须是唯一de的。
+在字典中，建必须是唯一的。
 
 如果不用字典：
 
@@ -26,6 +26,66 @@ print(namelist[1][0])
 ```python
 namelist2 = {'name':'Mike','age':'25','height':'170'
              ,'name':'Tom','age':'26','height':'180'}
+```
+
+当键为其他类型\(列表，元祖，字典\)：
+
+```python
+dict2 = {'abc':{'A':'B'}}
+print(dict2)
+```
+
+新增对象中的元素,
+
+如果字典中已经有这个键，则修改这个元素
+
+如果字典中没有这个键，则新增这个元素
+
+```python
+dict2['AB'] = 'A2'
+dict2.update({'AA':'CXK','AB':'YYQX'})
+```
+
+清空字典：
+
+```python
+dict2 = {}
+dict2.clear()
+print(dict2)
+```
+
+判断某个值是否在列表中，此处根据键来判断，并且区分大小写
+
+```python
+if 'AB' in dict2:
+    print('在字典里')
+```
+
+获取字典中所有的键，keys\(\) 方法的返回值属于**类列表**
+
+```python
+print(dict2.keys())
+```
+
+可以使用list\(\) 函数强制转换成真正的列表
+
+```python
+print(list(dict2.keys()))
+```
+
+获取字典中所有的值
+
+```python
+print(dicts.values())
+```
+
+同时获取值和键
+
+```python
+print(dict2.items())
+
+for k,v in dict2.items():
+    print((f'键:{k},值:{v}'))
 ```
 
 
