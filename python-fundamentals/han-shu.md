@@ -124,5 +124,20 @@ fun(1,2,345,678,90)
 
 #output: 1 2 (345, 678, 90)
 #以元祖输出
+
+#可以搭配缺省值
+def fun(a,b,*args,c=0):
+    print(a,b,args)
+fun(1,2,345,678,90,c=90)
+```
+
+### 关键字参数
+
+参数位置永远在关键词参数的前面
+
+```python
+def func (a,b, *args,**kwargs):
+    print (a,b,args,kwargs)
+func(1,2,3,4,5,6,7,8,qqq='b')
 ```
 
