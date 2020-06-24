@@ -88,5 +88,44 @@ for k,v in dict2.items():
     print((f'键:{k},值:{v}'))
 ```
 
+将json 转换为字典
+
+```python
+vipdata = ''' {
+        "a" :"tom",
+        "b":"alex"
+}'''
+tmp = json.loads(vipdata)
+```
+
+将字典转换为json
+
+```python
+json.dumps(temp)
+```
+
+从文件读取json
+
+```python
+with open('file-path') as ofile:
+    tmp = json.load(ofile)
+print(tmp)
+    
+```
+
+json.loads 和 json.load 
+
+在文件中读取json 数据，使用load方法。
+
+将字典数据写入文件，用dump：
+
+```python
+with open ('file-path') as ifile:
+    json.dump(tmp,ifile)
+    ifile.sekek()eee
+```
+
+
+
 
 
