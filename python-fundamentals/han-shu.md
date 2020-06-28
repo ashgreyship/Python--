@@ -139,5 +139,15 @@ fun(1,2,345,678,90,c=90)
 def func (a,b, *args,**kwargs):
     print (a,b,args,kwargs)
 func(1,2,3,4,5,6,7,8,qqq='b')
+
+```
+
+### 使用场景：
+
+```python
+def info (name,age,race='han',**kwargs):
+    print(name,age,race,kwargs)
+info('jack',30,hobby='打羽毛桥，KTV')
+# output: jack 30 han {'hobby':'打羽毛桥，KTV'}
 ```
 
