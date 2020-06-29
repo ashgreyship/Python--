@@ -16,5 +16,7 @@
 * [文件的读取与写入](python-fundamentals/wen-jian-de-du-qu-yu-xie-ru.md)
 * [字典](python-fundamentals/zi-dian.md)
 * [模块与包](python-fundamentals/untitled.md)
+* [日志调试](python-fundamentals/ri-zhi-tiao-shi.md)
+* [面向对象](python-fundamentals/mian-xiang-dui-xiang.md)
 * [错题集](python-fundamentals/cuo-ti-ji.md)
 

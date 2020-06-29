@@ -48,6 +48,16 @@ print(__name__)
 
 标准库，第三方库
 
+### 临时将包加入到默认路径中:
+
+```python
+import sys
+print(sys.path)
+sys.path.append('path')
+
+
+```
+
 
 
 
