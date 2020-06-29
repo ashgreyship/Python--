@@ -32,6 +32,22 @@ print(__name__)
 
 当你调用包的时候，`__init__.py` 会被自动执行。
 
+```python
+#from 包名 import 模块
+# 模块名.函数名
+
+# from 包名.模块名 import 函数名
+# 函数名
+
+# from 包名.模块名 import 函数名  as alias
+# 起一个别名
+
+```
+
+### 库:
+
+标准库，第三方库
+
 
 
 
