@@ -18,5 +18,6 @@
 * [模块与包](python-fundamentals/untitled.md)
 * [日志调试](python-fundamentals/ri-zhi-tiao-shi.md)
 * [面向对象](python-fundamentals/mian-xiang-dui-xiang.md)
+* [递归](python-fundamentals/di-gui.md)
 * [错题集](python-fundamentals/cuo-ti-ji.md)
 
