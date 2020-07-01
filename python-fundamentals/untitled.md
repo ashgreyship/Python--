@@ -54,11 +54,11 @@ print(__name__)
 import sys
 print(sys.path)
 sys.path.append('path')
-
-
 ```
 
+### 永久添加路径:
 
+到python的安装的安装目录，进入 Lib/site-packages, 自己添加一个 XXX.pth 文件。可以往文件里添加路径，每次添加一行。
 
 
 
