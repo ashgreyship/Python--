@@ -146,7 +146,14 @@ with open ('file-path') as ifile:
     print(ifile.read())
 ```
 
+## **dict1.clear\(\) & dict1 = {}**
 
+```python
+dict1.clear() #字典变为 none
+dict1= {} #字典变为{}
+```
 
+## 键值的类型
 
+键可以为`tuple`，不可以是`list`
 

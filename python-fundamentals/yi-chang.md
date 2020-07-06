@@ -28,5 +28,7 @@ finally:
 
 很多异常的父类
 
+## **在完整的异常语句中，语句出现的顺序**
 
+try----&gt;except-----&gt;else----&gt;finally
 
