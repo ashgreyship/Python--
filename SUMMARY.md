@@ -25,3 +25,7 @@
 * [正则表达式](python-fundamentals/zheng-ze-biao-da-shi.md)
 * [错题集](python-fundamentals/cuo-ti-ji.md)
 
+## Selenium
+
+* [基础](selenium/ji-chu.md)
+

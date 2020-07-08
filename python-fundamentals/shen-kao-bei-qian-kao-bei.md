@@ -18,7 +18,7 @@ copy 模块的 deepcopy 方法，完全拷贝了父对象及其子对象。
 
 ## 例子
 
-```text
+```python
 list3 =[11,[22,33],44,55,66]
 list4 = list3
 print(str(list3))
@@ -33,7 +33,7 @@ print(str(list4))
 
 ## 切片：切片属于浅拷贝
 
-```text
+```python
 list3 =[11,[22,33],44,55,66]
 list4 = list3[:]
 print(str(list3))
@@ -47,7 +47,7 @@ print(str(list4))
 
 ```
 
-```text
+```python
 list3 =[11,[22,33],44,55,66]
 list4 = list3[:]
 print(str(list3))
