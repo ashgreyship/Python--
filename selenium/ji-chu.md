@@ -1,4 +1,4 @@
-# 基础
+# 元素定位
 
 ## 打开网页
 
@@ -19,7 +19,7 @@ search_element.click()
 
 ```
 
-## 8中元素定位放手
+## 8中元素定位方式
 
 ```python
 from selenium import webdriver

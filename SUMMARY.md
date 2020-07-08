@@ -27,5 +27,5 @@
 
 ## Selenium
 
-* [基础](selenium/ji-chu.md)
+* [元素定位](selenium/ji-chu.md)
 
