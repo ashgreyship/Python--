@@ -30,7 +30,7 @@ element1.click()
 
 ```
 
-## 隐式等待：
+## 隐式等待\(Implicit Waits\)
 
 ```python
 from selenium import webdriver
@@ -67,7 +67,7 @@ element1.click()
 driver1.close()
 ```
 
-## 显示等待
+## 显示等待\(Explicit Waits\)
 
 ```python
 from selenium import webdriver
@@ -104,7 +104,11 @@ driver1.close()
 
 ## 隐式等待&显示等待
 
-显示等待必须制定要等得元素定位操作
+* 显示等待要等到满足某个元素的某个条件,该条件满足后就往下执行代码，如果超出设置的时间还没满足条件,那么就抛出Exception。
+* 显式等待使用ExpectedConditions类中的方法， 可以设置显试等待的条件
 
-隐式等待对之后所有元素等待都生效
+
+
+* 隐式等待对之后所有元素等待都生效
+* 它的作用范围就是Webdriver对象实例的整个生命周期。
 
