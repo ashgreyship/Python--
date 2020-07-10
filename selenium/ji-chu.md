@@ -19,7 +19,7 @@ search_element.click()
 
 ```
 
-## 8中元素定位方式
+## 八种元素定位方式
 
 ```python
 from selenium import webdriver
