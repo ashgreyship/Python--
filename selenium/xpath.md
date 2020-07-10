@@ -2,7 +2,6 @@
 
 ```python
 from selenium import webdriver
-import unittest
 
 driver1 = webdriver.Chrome('/usr/local/bin/chromedriver')
 driver1.get("https://m.weibo.cn/search?containerid=231583")
@@ -18,7 +17,7 @@ result = element1.find_element_by_xpath('./div[1]/div[2]/div/div/div[8]/div/div/
 # result = element1.find_element_by_xpath('../div[1]/div[2]/div/div/div[8]/div/div/h4')
 
 # / 一条斜杆是直接子元素
-# // 两条斜杆则是从任意节点开始寻找
+# // 两条斜杆则是从任意层级开始寻找
 
 result.click()
 ```
