@@ -30,6 +30,6 @@
 * [元素定位](selenium/ji-chu.md)
 * [断言](selenium/duan-yan.md)
 * [等待](selenium/deng-dai.md)
-* [XPath](selenium/xpath.md)
+* [XPath 语法](selenium/xpath.md)
 * [属性定位](selenium/shu-xing-ding-wei.md)
 
