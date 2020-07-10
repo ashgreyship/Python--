@@ -28,4 +28,6 @@
 ## Selenium
 
 * [元素定位](selenium/ji-chu.md)
+* [断言](selenium/duan-yan.md)
+* [等待](selenium/deng-dai.md)
 

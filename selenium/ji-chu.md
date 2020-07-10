@@ -59,3 +59,20 @@ driver1.quit()
 
 ```
 
+## 另一种写法：
+
+```python
+from selenium.webdriver.common.by import By
+from selenium import webdriver
+
+driver1 = webdriver.Chrome('/usr/local/bin/chromedriver')
+driver1.get("file:///Users/gabriel/PycharmProjects/trail1/selenium_note/test.html")
+
+elements = driver1.find_elements(By.TAG_NAME,'span')
+for element in elements:
+    print(element.text)
+
+driver1.quit()
+
+```
+
