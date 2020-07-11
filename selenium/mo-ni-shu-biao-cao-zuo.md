@@ -1,0 +1,28 @@
+# 模拟鼠标操作
+
+ActionChains 类提供了鼠标操作的常用方法：
+
+* perform\(\)： 执行操作
+* context\_click\(\)： 右击
+* double\_click\(\)： 双击
+* drag\_and\_drop\(\)： 拖动
+* move\_to\_element\(\)： 鼠标悬停
+
+### 例子：
+
+```python
+from selenium import webdriver
+# 引入 ActionChains 类
+from selenium.webdriver.common.action_chains import ActionChains
+
+driver = webdriver.Chrome()
+driver.get("https://www.baidu.cn")
+
+# 定位到要悬停的元素
+above = driver.find_element_by_link_text("设置")
+# 对定位到的元素执行鼠标悬停操作
+ActionChains(driver).move_to_element(above).perform()
+
+driver.quit()
+```
+

@@ -32,4 +32,5 @@
 * [等待](selenium/deng-dai.md)
 * [XPath 语法](selenium/xpath.md)
 * [属性定位](selenium/shu-xing-ding-wei.md)
+* [模拟鼠标操作](selenium/mo-ni-shu-biao-cao-zuo.md)
 
