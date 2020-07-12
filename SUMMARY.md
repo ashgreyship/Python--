@@ -32,4 +32,6 @@
 * [等待](selenium/deng-dai.md)
 * [XPath 语法](selenium/xpath.md)
 * [模拟鼠标操作](selenium/mo-ni-shu-biao-cao-zuo.md)
+* [浏览器操作](selenium/liu-lan-qi-cao-zuo.md)
+* [Webdrive常用方法](selenium/webdrive-chang-yong-fang-fa.md)
 
