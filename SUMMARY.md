@@ -28,11 +28,11 @@
 ## Selenium
 
 * [元素定位](selenium/ji-chu.md)
+* [XPath 语法](selenium/xpath.md)
+* [CSS 语法](selenium/css-yu-fa.md)
 * [断言](selenium/duan-yan.md)
 * [等待](selenium/deng-dai.md)
-* [XPath 语法](selenium/xpath.md)
 * [模拟鼠标操作](selenium/mo-ni-shu-biao-cao-zuo.md)
 * [浏览器操作](selenium/liu-lan-qi-cao-zuo.md)
 * [Webdrive常用方法](selenium/webdrive-chang-yong-fang-fa.md)
-* [CSS 语法](selenium/css-yu-fa.md)
 
