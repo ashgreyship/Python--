@@ -36,7 +36,10 @@
 * [浏览器操作](selenium/liu-lan-qi-cao-zuo.md)
 * [Webdrive常用方法](selenium/webdrive-chang-yong-fang-fa.md)
 * [窗口截图](selenium/chuang-kou-jie-tu.md)
-* [对话框](selenium/dui-hua-kuang.md)
+* [对话框切换](selenium/dui-hua-kuang.md)
+* [iframe 内嵌页切换](selenium/iframe-nei-qian-ye-qie-huan.md)
+* [标签页切换](selenium/biao-qian-ye-qie-huan.md)
 * [鼠标操作](selenium/shu-biao-cao-zuo.md)
 * [键盘操作](selenium/jian-pan-cao-zuo.md)
+* [元素找不到的原因](selenium/yuan-su-zhao-bu-dao-de-yuan-yin.md)
 
