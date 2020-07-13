@@ -35,4 +35,8 @@
 * [模拟鼠标操作](selenium/mo-ni-shu-biao-cao-zuo.md)
 * [浏览器操作](selenium/liu-lan-qi-cao-zuo.md)
 * [Webdrive常用方法](selenium/webdrive-chang-yong-fang-fa.md)
+* [窗口截图](selenium/chuang-kou-jie-tu.md)
+* [对话框](selenium/dui-hua-kuang.md)
+* [鼠标操作](selenium/shu-biao-cao-zuo.md)
+* [键盘操作](selenium/jian-pan-cao-zuo.md)
 
