@@ -42,4 +42,5 @@
 * [鼠标操作](selenium/shu-biao-cao-zuo.md)
 * [键盘操作](selenium/jian-pan-cao-zuo.md)
 * [元素找不到的原因](selenium/yuan-su-zhao-bu-dao-de-yuan-yin.md)
+* [select 下拉框处理](selenium/select-xia-la-kuang-chu-li.md)
 
