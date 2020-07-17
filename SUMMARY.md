@@ -44,5 +44,5 @@
 * [元素找不到的原因](selenium/yuan-su-zhao-bu-dao-de-yuan-yin.md)
 * [select 下拉框处理](selenium/select-xia-la-kuang-chu-li.md)
 * [cookie 获取&设置](selenium/cookie-huo-qu-she-zhi.md)
-* [Page object](selenium/page-object.md)
+* [Page object 设计模式](selenium/page-object.md)
 
