@@ -23,6 +23,7 @@
 * [递归](python-fundamentals/di-gui.md)
 * [异常](python-fundamentals/yi-chang.md)
 * [正则表达式](python-fundamentals/zheng-ze-biao-da-shi.md)
+* [解包 Unpacking](python-fundamentals/jie-bao-unpacking.md)
 * [错题集](python-fundamentals/cuo-ti-ji.md)
 
 ## Selenium
@@ -45,4 +46,5 @@
 * [select 下拉框处理](selenium/select-xia-la-kuang-chu-li.md)
 * [cookie 获取&设置](selenium/cookie-huo-qu-she-zhi.md)
 * [Page object 设计模式](selenium/page-object.md)
+* [高级Page object 设计模式](selenium/gao-ji-page-object-she-ji-mo-shi.md)
 
