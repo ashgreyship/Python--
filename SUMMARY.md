@@ -22,7 +22,7 @@
 * [面向对象](python-fundamentals/mian-xiang-dui-xiang.md)
 * [递归](python-fundamentals/di-gui.md)
 * [异常](python-fundamentals/yi-chang.md)
-* [正则表达式](python-fundamentals/zheng-ze-biao-da-shi.md)
+* [正则表达式 Regular Expression](python-fundamentals/zheng-ze-biao-da-shi.md)
 * [解包 Unpacking](python-fundamentals/jie-bao-unpacking.md)
 * [错题集](python-fundamentals/cuo-ti-ji.md)
 
