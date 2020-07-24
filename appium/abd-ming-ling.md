@@ -1,10 +1,12 @@
 # abd 命令
 
-添加需要测试的安装包：
+#### 还没有安装APP
+
+查看appPackage 和 appActivity：
 
 ```bash
 apt dump badgding <apk path>
 ```
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 

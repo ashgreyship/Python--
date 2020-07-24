@@ -51,4 +51,5 @@
 ## Appium
 
 * [abd 命令](appium/abd-ming-ling.md)
+* [定位元素](appium/ding-wei-yuan-su.md)
 
