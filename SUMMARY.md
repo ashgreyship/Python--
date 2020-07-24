@@ -48,3 +48,7 @@
 * [Page object 设计模式](selenium/page-object.md)
 * [高级Page object 设计模式](selenium/gao-ji-page-object-she-ji-mo-shi.md)
 
+## Appium
+
+* [abd 命令](appium/abd-ming-ling.md)
+
