@@ -50,6 +50,9 @@
 
 ## Appium
 
-* [abd 命令](appium/abd-ming-ling.md)
+* [ADB 命令](appium/abd-ming-ling.md)
 * [定位元素](appium/ding-wei-yuan-su.md)
+* [XPath 定位](appium/xpath-ding-wei.md)
+* [使用Weditor](appium/shi-yong-weditor.md)
+* [坐标操作](appium/zuo-biao-cao-zuo.md)
 
