@@ -32,7 +32,7 @@
 * [XPath 语法](selenium/xpath.md)
 * [CSS 语法](selenium/css-yu-fa.md)
 * [断言](selenium/duan-yan.md)
-* [等待](selenium/deng-dai.md)
+* [显示等待&隐式等待](selenium/deng-dai.md)
 * [模拟鼠标操作](selenium/mo-ni-shu-biao-cao-zuo.md)
 * [浏览器操作](selenium/liu-lan-qi-cao-zuo.md)
 * [Webdrive常用方法](selenium/webdrive-chang-yong-fang-fa.md)
@@ -55,4 +55,9 @@
 * [XPath 定位](appium/xpath-ding-wei.md)
 * [使用Weditor](appium/shi-yong-weditor.md)
 * [坐标操作](appium/zuo-biao-cao-zuo.md)
+* [安卓 KEYCODE 按键](appium/an-zhuo-keycode-an-jian.md)
+
+---
+
+* [PYTest](pytest.md)
 

@@ -1,4 +1,4 @@
-# 等待
+# 显示等待&隐式等待
 
 代码加载过快，元素未加载成功，代码已经跑到这个元素了，所以会出现无法定位到元素的情况。因此需要设置等待时间。
 
@@ -31,6 +31,8 @@ element1.click()
 ```
 
 ## 隐式等待\(Implicit Waits\)
+
+它的作用范围就是Webdriver对象实例的整个生命周期。
 
 ```python
 from selenium import webdriver
