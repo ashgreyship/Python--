@@ -47,6 +47,7 @@
 * [cookie 获取&设置](selenium/cookie-huo-qu-she-zhi.md)
 * [Page object 设计模式](selenium/page-object.md)
 * [高级Page object 设计模式](selenium/gao-ji-page-object-she-ji-mo-shi.md)
+* [常见问题](selenium/chang-jian-wen-ti.md)
 
 ## Appium
 
@@ -56,6 +57,7 @@
 * [使用Weditor](appium/shi-yong-weditor.md)
 * [坐标操作](appium/zuo-biao-cao-zuo.md)
 * [安卓 KEYCODE 按键](appium/an-zhuo-keycode-an-jian.md)
+* [常见问题](appium/chang-jian-wen-ti.md)
 
 ---
 
