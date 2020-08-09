@@ -64,4 +64,5 @@
 * [HTTP request&response](jie-kou-ce-shi/http-request-and-response.md)
 * [Requests 库](jie-kou-ce-shi/requests-ku.md)
 * [PyTest](jie-kou-ce-shi/pytest.md)
+* [环境初始化](jie-kou-ce-shi/huan-jing-chu-shi-hua.md)
 
