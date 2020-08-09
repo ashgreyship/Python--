@@ -63,5 +63,5 @@
 
 * [HTTP request&response](jie-kou-ce-shi/http-request-and-response.md)
 * [Requests 库](jie-kou-ce-shi/requests-ku.md)
-* [PYTest](jie-kou-ce-shi/pytest.md)
+* [PyTest](jie-kou-ce-shi/pytest.md)
 
