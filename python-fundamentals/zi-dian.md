@@ -1,4 +1,4 @@
-# 字典
+# 字典&JSON
 
 一种数据类型，它是通过键值对存储。
 
@@ -107,6 +107,8 @@ for k,v in dict2.items():
 ```
 
 ## JSON 和字典
+
+![](../.gitbook/assets/image%20%2815%29.png)
 
 将json 转换为字典
 

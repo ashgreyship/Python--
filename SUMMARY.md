@@ -16,7 +16,7 @@
 * [Pass & Continue](python-fundamentals/pass-and-continue.md)
 * [排序算法](python-fundamentals/xun-huan-qian-tao.md)
 * [文件的读取与写入](python-fundamentals/wen-jian-de-du-qu-yu-xie-ru.md)
-* [字典](python-fundamentals/zi-dian.md)
+* [字典&JSON](python-fundamentals/zi-dian.md)
 * [模块与包](python-fundamentals/untitled.md)
 * [日志调试](python-fundamentals/ri-zhi-tiao-shi.md)
 * [面向对象](python-fundamentals/mian-xiang-dui-xiang.md)
@@ -59,12 +59,9 @@
 * [安卓 KEYCODE 按键](appium/an-zhuo-keycode-an-jian.md)
 * [常见问题](appium/chang-jian-wen-ti.md)
 
----
-
-* [PYTest](pytest.md)
-
 ## 接口测试
 
 * [HTTP request&response](jie-kou-ce-shi/http-request-and-response.md)
 * [Requests 库](jie-kou-ce-shi/requests-ku.md)
+* [PYTest](jie-kou-ce-shi/pytest.md)
 
