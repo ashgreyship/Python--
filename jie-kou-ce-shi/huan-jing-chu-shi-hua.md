@@ -2,6 +2,12 @@
 
 ## 定义
 
+环境初始化
+
+* 清除测试环境
+* 实现分层
+  * 
+
 `pytest` 提供的fixture实现`unittest`中setup/teardown 功能，可以在每次执行case之前初始化数据。
 
 ## Scope（作用域）
