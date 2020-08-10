@@ -43,5 +43,22 @@ pytest.main(['test_lessson.py','-s','-m','mark_name1'])
 
 ![](../.gitbook/assets/image%20%2814%29.png)
 
+### -k 和 -v:
 
+```python
+-k <name > 
+#匹配用例名称
+#匹配: 可全名，也可以模糊
+
+#加入现在有两个文件: lesson_1.py lesson_2.py 
+pytest -k lesson
+
+-v <节点>
+#比如 test_lesson.py::TestLesson::test_lesson_add
+pytest -v test_lesson.py::TestLesson::test_lesson_add
+
+-sq: 简化 print 打印信息
+-s 输出打印
+-   简化 打印
+```
 
