@@ -59,6 +59,17 @@ pytest -v test_lesson.py::TestLesson::test_lesson_add
 
 -sq: 简化 print 打印信息
 -s 输出打印
--   简化 打印
+- 
+
+```
+
+### 跳过/条件跳过
+
+* 跳过-- skip
+* 有条件的跳过-skipif
+
+```python
+@pytest.mark.skip("跳过原因")
+@pytest.mark.skipif(1==2,reason='原因')
 ```
 
