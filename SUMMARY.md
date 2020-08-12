@@ -65,4 +65,5 @@
 * [Requests 库](jie-kou-ce-shi/requests-ku.md)
 * [PyTest](jie-kou-ce-shi/pytest.md)
 * [环境初始化](jie-kou-ce-shi/huan-jing-chu-shi-hua.md)
+* [Yaml](jie-kou-ce-shi/yaml.md)
 
