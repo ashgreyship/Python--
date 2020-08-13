@@ -66,4 +66,5 @@
 * [PyTest](jie-kou-ce-shi/pytest.md)
 * [环境初始化](jie-kou-ce-shi/huan-jing-chu-shi-hua.md)
 * [Yaml](jie-kou-ce-shi/yaml.md)
+* [Allure](jie-kou-ce-shi/allure.md)
 
