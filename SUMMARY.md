@@ -28,6 +28,7 @@
 
 ## Selenium
 
+* [Selenium 原理](selenium/selenium-yuan-li.md)
 * [元素定位](selenium/ji-chu.md)
 * [XPath 语法](selenium/xpath.md)
 * [CSS 语法](selenium/css-yu-fa.md)
@@ -67,4 +68,5 @@
 * [环境初始化](jie-kou-ce-shi/huan-jing-chu-shi-hua.md)
 * [Yaml](jie-kou-ce-shi/yaml.md)
 * [Allure](jie-kou-ce-shi/allure.md)
+* [Mock 技术](jie-kou-ce-shi/mock-ji-shu.md)
 
