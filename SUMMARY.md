@@ -24,6 +24,7 @@
 * [异常](python-fundamentals/yi-chang.md)
 * [正则表达式 Regular Expression](python-fundamentals/zheng-ze-biao-da-shi.md)
 * [解包 Unpacking](python-fundamentals/jie-bao-unpacking.md)
+* [编码](python-fundamentals/bian-ma.md)
 * [错题集](python-fundamentals/cuo-ti-ji.md)
 
 ## Selenium
