@@ -6,21 +6,28 @@
 
 * 清除测试环境
 * 实现分层
-  * 
 
 `pytest` 提供的fixture实现`unittest`中setup/teardown 功能，可以在每次执行case之前初始化数据。
 
-## Scope（作用域）
+## **pytest四种初始化和清除**
 
-`function`（默认值）,
+`setup_module`和`teardown_module`在整个测试用例所在的文件中所有的方法运行前和运行后运行，只会运行一次；
+
+`setup_class`和`teardown_class`则在整个文件中的一个class中所有用例的前后运行**;**
+
+`setup_method`和`teardown_method`在class内的每个方法运行前后运行。
+
+`setup_function`、`teardown_function`则是在非class下属的每个测试方法的前后运行；
+
+## **Fixture** Scope（作用域）
+
+`function`（默认值）,每个方法（函数）都会执行一次。
 
 `class:` 每个类都会执行一次，类里面有多个方法调用，只在第一个方法执行时调用
 
-`module:` 一个 .py文件执行一次
+`module:` 一个 `.py`文件执行一次,一个.py 文件可能包含多个类和方法。
 
-`package`
-
-`session；`
+`package/session:`多个文件调用一次，可以跨 `.py` 文件。
 
 ## fixture 实例化顺序
 

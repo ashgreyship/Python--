@@ -10,9 +10,19 @@
 
 断言必须使用assert
 
-## 标签
+## 数据驱动\(参数化\)
 
-![](../.gitbook/assets/image%20%2815%29.png)
+```python
+pytest.mark.parametrize
+```
+
+第一个参数是字符串。第二个参数是列表，列表里嵌套元组。
+
+## mark标签
+
+对于Pytest, 我们可以在每一个模块，每一个类，每一个方法和用例前都加上marker, 那样我们在 pytest运行的时候就可以只运行带有该mark标签的模块，类，用例。
+
+这样的话我们可以选择自动化时，可以选择执行全部用例，某个模块用例，某个流程用例，某个单独用例，总之就是某个单独的标签下的所有用例。
 
 ### 创建标签
 
@@ -72,4 +82,8 @@ pytest -v test_lesson.py::TestLesson::test_lesson_add
 @pytest.mark.skip("跳过原因")
 @pytest.mark.skipif(1==2,reason='原因')
 ```
+
+## conftest
+
+倘若有多个.py 文件需要调用同一方法，将方法写入`conftest.py` 配置文件，`test_xxx.py` 测试文件中不需要 `import conftest`，pytest 会自动搜索同级目录中的 conftest.py 文件 
 
