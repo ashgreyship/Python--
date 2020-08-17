@@ -69,4 +69,5 @@
 * [Yaml](jie-kou-ce-shi/yaml.md)
 * [Allure](jie-kou-ce-shi/allure.md)
 * [Mock 技术](jie-kou-ce-shi/mock-ji-shu.md)
+* [常见问题](jie-kou-ce-shi/chang-jian-wen-ti.md)
 
