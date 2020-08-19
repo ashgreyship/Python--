@@ -25,6 +25,11 @@
 * [正则表达式 Regular Expression](python-fundamentals/zheng-ze-biao-da-shi.md)
 * [解包 Unpacking](python-fundamentals/jie-bao-unpacking.md)
 * [编码](python-fundamentals/bian-ma.md)
+* [调用外部程序](python-fundamentals/tiao-yong-wai-bu-cheng-xu.md)
+* [作用域](python-fundamentals/zuo-yong-yu.md)
+* [高阶函数](python-fundamentals/gao-jie-han-shu.md)
+* [闭包](python-fundamentals/bi-bao.md)
+* [装饰器](python-fundamentals/zhuang-shi-qi.md)
 * [错题集](python-fundamentals/cuo-ti-ji.md)
 
 ## Selenium
