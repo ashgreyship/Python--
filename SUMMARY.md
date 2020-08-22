@@ -30,6 +30,7 @@
 * [高阶函数](python-fundamentals/gao-jie-han-shu.md)
 * [闭包](python-fundamentals/bi-bao.md)
 * [装饰器](python-fundamentals/zhuang-shi-qi.md)
+* [多线程](python-fundamentals/duo-xian-cheng.md)
 * [错题集](python-fundamentals/cuo-ti-ji.md)
 
 ## Selenium
