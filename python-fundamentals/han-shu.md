@@ -133,21 +133,63 @@ fun(1,2,345,678,90,c=90)
 
 ### 关键字参数
 
-参数位置永远在关键词参数的前面
+`*args` 和 `**kwargs` 主要用于函数定义。 你可以将不定数量的参数传递给一个函数
+
+#### 标准参数与`*args、**kwargs`在使用时的顺序
+
+那么如果你想在函数里同时使用所有这三种参数， 顺序是这样的：
 
 ```python
-def func (a,b, *args,**kwargs):
-    print (a,b,args,kwargs)
-func(1,2,3,4,5,6,7,8,qqq='b')
+some_func(fargs, *args, **kwargs)
+```
 
+#### \*args：
+
+```python
+def test_var_args(f_arg, *argv):
+    print("first normal arg:", f_arg)
+    for arg in argv:
+        print("another arg through *argv:", arg)
+
+test_var_args('yasoob', 'python', 'eggs', 'test')
+```
+
+#### 输出：
+
+```text
+first normal arg: yasoob
+another arg through *argv: python
+another arg through *argv: eggs
+another arg through *argv: test
+```
+
+#### \*\*kwargs：
+
+`**kwargs` 允许你将不定长度的**键值对**, 作为参数传递给一个函数。 如果你想要在一个函数里处理**带名字的参数**, 你应该使用`**kwargs`。
+
+```python
+def greet_me(**kwargs):
+    for key, value in kwargs.items():
+        print("{0} == {1}".format(key, value))
+
+>>> greet_me(name="yasoob")
+name == yasoob
 ```
 
 ### 使用场景：
 
 ```python
+def func (a,b, *args,**kwargs):
+    print (a,b,args,kwargs)
+func(1,2,3,4,5,6,7,8,qqq='b')
+```
+
+```python
 def info (name,age,race='han',**kwargs):
     print(name,age,race,kwargs)
+
 info('jack',30,hobby='打羽毛桥，KTV')
+
 # output: jack 30 han {'hobby':'打羽毛桥，KTV'}
 ```
 
