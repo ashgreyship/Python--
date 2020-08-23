@@ -31,7 +31,8 @@
 * [闭包](python-fundamentals/bi-bao.md)
 * [装饰器](python-fundamentals/zhuang-shi-qi.md)
 * [多线程](python-fundamentals/duo-xian-cheng.md)
-* [Socket](python-fundamentals/socket.md)
+* [Socket](python-fundamentals/socket/README.md)
+  * [粘包](python-fundamentals/socket/nian-bao.md)
 * [错题集](python-fundamentals/cuo-ti-ji.md)
 
 ## Selenium
