@@ -2,6 +2,12 @@
 
 ## 使用 OS
 
+`os.system`是阻塞式调用
+
+函数有返回值，返回值为 0 代表外部程序调用成功
+
+函数有返回值，返回值为 1 代表外部程序调用失败
+
 ```python
 import os
 
@@ -14,6 +20,10 @@ print("after")
 ```
 
 ## 使用 subprocess
+
+`subprocess.popen` 非阻塞式调用
+
+调用 wait 方法可变为阻塞式调用
 
 ```python
 import subprocess
