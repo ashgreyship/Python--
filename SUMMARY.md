@@ -84,5 +84,6 @@
 
 ## Robot Framework
 
-* [Untitled](robot-framework/untitled.md)
+* [基本语法](robot-framework/untitled.md)
+* [常用的变量](robot-framework/chang-yong-de-bian-liang.md)
 
