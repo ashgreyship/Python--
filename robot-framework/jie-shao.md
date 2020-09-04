@@ -2,7 +2,7 @@
 
 Robot Framework是一个通用的，应用程序和技术独立的框架，架构高度模块化：
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 ## 文件和目录
 

@@ -90,4 +90,8 @@
 * [第三方自定义库](robot-framework/di-san-fang-zi-ding-yi-ku.md)
 * [不同形态的变量](robot-framework/bu-tong-xing-tai-de-bian-liang.md)
 * [for loop](robot-framework/for-loop.md)
+* [run keyword if](robot-framework/run-keyword-if.md)
+* [collection](robot-framework/collection.md)
+* [evaluate](robot-framework/evaluate.md)
+* [初始化&清除](robot-framework/chu-shi-hua-qing-chu.md)
 
