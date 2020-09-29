@@ -53,7 +53,3 @@ Creating instance
 None
 ```
 
-  
-  
-
-
