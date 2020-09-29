@@ -35,6 +35,7 @@
   * [Socket](python-fundamentals/wang-luo-chuan-shu/socket.md)
   * [粘包](python-fundamentals/wang-luo-chuan-shu/nian-bao.md)
   * [远程控制Linux](python-fundamentals/wang-luo-chuan-shu/yuan-cheng-kong-zhi-linux.md)
+* [\_\_new\_\_ & \_\_init\_\_](python-fundamentals/__new__-and-__init__.md)
 * [错题集](python-fundamentals/cuo-ti-ji.md)
 
 ## Selenium
